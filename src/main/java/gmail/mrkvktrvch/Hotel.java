@@ -17,4 +17,10 @@ public class Hotel {
         System.out.println("Отель"+ " " + name + " " + "находящийся по адресу: " + address + " " + "имеет " + freeRooms +
                 " " + "свободных комнат");
     }
+
+    public int refuseToCheckIn (int busyRooms) {
+        freeRooms = freeRooms - busyRooms;
+        return freeRooms;
+    }
+
 }

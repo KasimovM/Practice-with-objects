@@ -36,6 +36,11 @@ public class PracticeWithObjects {
         System.out.println("Данные о постояльцах:" + "\n" + "Имя: " + resident6.name + "\n" + "Номер паспорта: " +
                 resident6.passportId + "\n" + "Итого к оплате за месяц аренды: " + room3.pricePerDay *
                 room3.residents * 30 + "$");
+
+        hotel3.refuseToCheckIn(24);
+        hotel3.printHotelInfo();
+        System.out.println("К сожалению, отель не располагает свободными комнатами, уважаемый " + resident6.name + ", " +
+                "будем ждать вас в будущем!");
         }
     }
 
