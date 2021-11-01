@@ -41,6 +41,9 @@ public class PracticeWithObjects {
         hotel3.printHotelInfo();
         System.out.println("К сожалению, отель не располагает свободными комнатами, уважаемый " + resident6.name + ", " +
                 "будем ждать вас в будущем!");
+        resident6.changeName("Касемов Марк Викторович");
+        System.out.println("Администрация отеля заметила вашу попытку сменить имя, " + resident6.name + "! " +
+                "Номер вам сдаваться не будет!");
         }
     }
 

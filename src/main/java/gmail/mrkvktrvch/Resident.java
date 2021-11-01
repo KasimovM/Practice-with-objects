@@ -5,7 +5,14 @@ public class Resident {
     int passportId;
 
     public Resident ( String name, int passportId) {
-        this.name = name;
+        this.name= name;
         this.passportId = passportId;
     }
+
+    public String changeName (String newName) {
+        name = newName;
+        return name;
+
+    }
+
 }
